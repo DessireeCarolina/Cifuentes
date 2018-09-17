@@ -4,8 +4,8 @@
 }
 
 body{
-	background:rgba(250,131,78,1);
-	color:rgba(25,25,25,1);
+	background:rgba(250,131,96,1);
+	color:rgba(10,10,10,1);
 	font-family: 'Hind-Siliguri',sans-serif;
 	font-weight:400;
 }
@@ -14,14 +14,18 @@ h1{
 	font-weight: 700;
 	}
 
-h2, h3, h4{
-	font-family: 'Hind-Siliguri', sans-serif;
+h2, h4{
+	font-family: 'Lato', sans-serif;
 	font-weight:400;
 }
 
+h3{
+ font-family:'Pacifico', Righteous;
+ font-weight:400;
+}
+
 h1{
-	letter-spacing:0.4em;
-	color:rgba(255,255,255,0.9);
+	color:rgba(25,25,25,0.9);
 	text-shadow: 1px 1px 0 #999;
 	text-align:left;
 }
@@ -35,10 +39,8 @@ h2{
 }
 
 h3{
-	letter-spacing:0.2em;
-	color:rgba(0,0,0,.75);
+	color:rgba(255,255,255,1);
 	padding:1em 0 0.6em 0;
-	text-shadow: 1px 1px 0 #ccc;
 	text-align:left;
 }
 
@@ -79,7 +81,7 @@ video{
 
 .dupla{
 	width:46%;
-	padding:2%;
+	padding:3%;
 	float:left;
 	background-color:red;
 	}
@@ -92,7 +94,6 @@ video{
 
 .dupla a:hover{
 	color:rgba(255,0,0,1);
-	text-decoration:underline;
 }
 
 .primera{
@@ -116,7 +117,6 @@ video{
 	min-height:300px;
 	text-align:right;
 	background-color:rgba(231,240,239,1);
-	background-image:url('media/dupla-02.jpg');
 	background-position:top left;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
@@ -148,8 +148,6 @@ video{
 	background:white;
 	box-shadow:0 0 5px rgba(0,0,0,.1);
 }
-
-
 
 
 .item figure{
